@@ -79,7 +79,3 @@ flowchart TD
   %% Combine
   A --> L[Combine all fields into record]
   L --> M[Return final transaction dict]
-
-  %% Styling
-  classDef decision fill:#FEF3C7,stroke:#333,stroke-width:1px;
-  class C1,D1,E1,F1,G1,H1,I1,J1,K1 decision;
